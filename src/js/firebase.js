@@ -256,7 +256,6 @@ onAuthStateChanged(auth, user => {
   if (user) {
     libraryBtn.classList.remove('visually-hidden');
     showUserDetails(user);
-    console.log(user);
     const userId = user.uid;
     refs.openSignInModalBtn.style.display = 'none';
     refs.logoutBtn.style.display = 'block';
