@@ -243,7 +243,7 @@ function logOutUser() {
 function showUserDetails(user) {
   if (user.photoURL) {
     refs.loginUserDetails.innerHTML = `
-  <img class="user-img" src="${user.photoURL}" width=25"px">
+  <img class="user-img" src="${user.photoURL}" width=20"px">
   <p class="user-name">${user.displayName}</p>`;
   } else {
     refs.loginUserDetails.innerHTML = `<p class="user-email">${user.email}</p>`;
