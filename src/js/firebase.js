@@ -48,7 +48,7 @@ const instance = basicLightbox.create(
       </div>
       <button type="button" id="close-modal-btn">
         <svg width="14" height="14">
-        <use href="/Test/sprite.4816ad45.svg#icon-close"></use>
+        <use href="sprite.4816ad45.svg#icon-close"></use>
       </svg>
       </button>
         <p class="auth-container-text" data-key="description">Enter your email address and password to log in</p>
@@ -61,7 +61,7 @@ const instance = basicLightbox.create(
             <li class="social-items">
               <a id="login-google" class="social-login-btn">
                 <svg width="25" height="25">
-                  <use href="/Test/sprite.4816ad45.svg#icon-google"></use>
+                  <use href="sprite.4816ad45.svg#icon-google"></use>
                 </svg>
               </a>
             </li>
@@ -75,7 +75,7 @@ const instance = basicLightbox.create(
             <li class="social-items">
               <a id="login-github" class="social-login-btn git-btn">
                 <svg width="25" height="25">
-                  <use href="/Test/sprite.4816ad45.svg#icon-github"</use>
+                  <use href="sprite.4816ad45.svg#icon-github"</use>
                 </svg>
               </a>
             </li>
@@ -102,7 +102,7 @@ const instance2 = basicLightbox.create(
     </div>
       <button type="button" id="close-modal-btn">
         <svg width="14" height="14">
-        <use href="/Test/sprite.4816ad45.svg#icon-close"></use>
+        <use href="sprite.4816ad45.svg#icon-close"></use>
       </svg>
       </button>
       <p class="auth-container-text" data-key="description">Enter your email address and password to sign up</p>
